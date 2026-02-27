@@ -1,0 +1,31 @@
+{
+  "stateMatrix": {
+    "hero-surface": {
+      "default": "required",
+      "loading": "N/A - static marketing section with no async data",
+      "empty": "N/A - section has no list/data dependency",
+      "error": "N/A - no fetch/mutation path",
+      "success": "N/A - no completion workflow",
+      "disabled": "N/A - non-interactive surface"
+    },
+    "primary-cta-button": {
+      "default": "required",
+      "loading": "N/A - navigation CTA does not submit async action",
+      "empty": "N/A - button is always labeled",
+      "error": "N/A - no local error state",
+      "success": "N/A - no success state before navigation",
+      "disabled": "N/A - primary CTA is always available on the public homepage"
+    },
+    "signal-preview-card": {
+      "default": "required",
+      "loading": "N/A - statically rendered preview content",
+      "empty": "N/A - seeded realistic static preview",
+      "error": "N/A - no API dependency",
+      "success": "N/A - no submit/transaction",
+      "disabled": "N/A - read-only informational card"
+    }
+  },
+  "requiredStates": [
+    "default"
+  ]
+}

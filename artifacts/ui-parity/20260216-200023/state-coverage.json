@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-02-16T20:06:51.077Z",
+  "url": "http://localhost:4173",
+  "requiredStates": [
+    "default"
+  ],
+  "testedStates": [
+    "default"
+  ],
+  "discoveredReachableStates": [
+    "default",
+    "disabled"
+  ],
+  "stateMatrixPath": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023/state-matrix.json",
+  "discovery": {
+    "available": true,
+    "states": [
+      "default",
+      "disabled"
+    ]
+  },
+  "missingRequiredStates": [],
+  "untestedReachableRequiredStates": [],
+  "pass": true
+}

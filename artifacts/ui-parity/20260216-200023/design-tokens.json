@@ -1,0 +1,50 @@
+{
+  "selectedDirection": "direction-1",
+  "color": {
+    "brand": "#7AC796",
+    "brandDeep": "#3f8f66",
+    "brandSoft": "#e9f7ee",
+    "bg": "#f4fbf7",
+    "surface": "#ffffff",
+    "surfaceAlt": "#eff9f3",
+    "textPrimary": "#143128",
+    "textSecondary": "#365949",
+    "border": "#cde7d8",
+    "focusRing": "#5fb483",
+    "success": "#2f8f61",
+    "error": "#b53a3a"
+  },
+  "typography": {
+    "families": {
+      "heading": "'Manrope', 'Segoe UI', sans-serif",
+      "body": "'Plus Jakarta Sans', 'Segoe UI', sans-serif"
+    },
+    "scale": {
+      "xs": "0.75rem",
+      "sm": "0.875rem",
+      "base": "1rem",
+      "lg": "1.125rem",
+      "xl": "1.25rem",
+      "2xl": "1.5rem",
+      "4xl": "2.5rem"
+    }
+  },
+  "spacing": [4, 8, 12, 16, 20, 24, 32, 40, 56, 72],
+  "shape": {
+    "radiusSm": "10px",
+    "radiusMd": "16px",
+    "radiusLg": "24px",
+    "radiusPill": "999px",
+    "border": "1px solid #cde7d8"
+  },
+  "shadow": {
+    "card": "0 14px 30px rgba(30, 73, 55, 0.10)",
+    "hero": "0 24px 60px rgba(35, 94, 68, 0.28)"
+  },
+  "motion": {
+    "durationFast": "160ms",
+    "durationBase": "240ms",
+    "easing": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+    "reducedMotion": "Disable non-essential transforms/animations when prefers-reduced-motion is enabled"
+  }
+}

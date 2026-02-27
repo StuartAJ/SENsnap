@@ -1,0 +1,54 @@
+{
+  "runId": "20260216-200643",
+  "generatedAt": "2026-02-16T20:06:51.090Z",
+  "mode": "fast",
+  "selectedPath": "full",
+  "inputs": {
+    "url": "http://localhost:4173",
+    "widths": [
+      375,
+      768,
+      1024,
+      1440
+    ],
+    "height": 900,
+    "budgets": {
+      "jsBudgetKb": 250,
+      "imageBudgetKb": 800
+    }
+  },
+  "toolAvailability": {
+    "playwright": {
+      "available": true
+    },
+    "axe": {
+      "available": true
+    }
+  },
+  "versions": {
+    "node": "v24.6.0"
+  },
+  "paths": {
+    "outDir": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023",
+    "qaReportPath": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023/qa-report.json",
+    "junitPath": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023/qa-junit.xml",
+    "summaryPath": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023/qa-summary.md",
+    "manifestPath": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023/run-manifest.json",
+    "stateCoveragePath": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023/state-coverage.json"
+  },
+  "artifactHashes": {
+    "qa-report.json": "70c8c2232152dad46aaf5b7469483d6ec36595ba2f5d26875cab0b468e2c6018",
+    "qa-junit.xml": "2ebe6733a20b07c8369d175e92fba06accf0fe3c36eccc9ef4477ab01e591187",
+    "qa-summary.md": "1392f9fdf93f447d7f25d719e44fc8b45facb567ca666975fc40273bab008d78",
+    "mismatch-log.jsonl": "c00f7cc22d0bb4534abae6b1210de81b37952181659bab14647a4aa10530fa8c",
+    "state-coverage.json": "ec4b5c466068df1f06b19ecf252f99b701d08a104e3ab04fc18134d5892f3ce4",
+    "screenshots/implementation/default-w1024.png": "e22ebb541e3b8e3d33d23d7f8fadfb2386f0a39e14125601352e6fdd4400e496",
+    "screenshots/implementation/default-w1440.png": "8cb0186bc1716c9b97884f25776f876e3cc5671bcf795790d436ad05680474b2",
+    "screenshots/implementation/default-w375.png": "2b573e82be54eb386de1d5ac7885dfc42f1bb612a7d233e659e382c908ac6f7d",
+    "screenshots/implementation/default-w768.png": "2d0a751730e7ccf7f573fe61b4e4869056fffedee995be5aaeb2404f9c82b38a",
+    "screenshots/mockup/default-w1024.png": "f1b897939d3c022c9043c22709523912b830232068e74fcf3ba680d5deb544be",
+    "screenshots/mockup/default-w1440.png": "087531075693ed2427edde907a19d4ce82cc444a6b6471867c6daed3b61716cf",
+    "screenshots/mockup/default-w375.png": "2f54a65a7265333a3edc5ff59dad2cf52e67d94ea4f88a0df71398c0ad92af85",
+    "screenshots/mockup/default-w768.png": "2f5543188df7314f996a6d2babfdf73ba1060643c63e82faebed8e77f51fac60"
+  }
+}

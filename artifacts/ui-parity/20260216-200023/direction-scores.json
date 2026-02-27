@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-02-16T20:02:18.470Z",
+  "weights": {
+    "clarity": 0.35,
+    "brandFit": 0.3,
+    "accessibilityFeasibility": 0.2,
+    "implementationCost": 0.15
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "id": "direction-1",
+      "weightedScore": 4.64,
+      "scores": {
+        "clarity": 4.8,
+        "brandFit": 4.7,
+        "accessibilityFeasibility": 4.6,
+        "implementationCost": 4.2
+      },
+      "rationale": "Best hierarchy and strongest trust-first SEN tone while remaining straightforward to build responsively."
+    },
+    {
+      "rank": 2,
+      "id": "direction-2",
+      "weightedScore": 4.25,
+      "scores": {
+        "clarity": 4.3,
+        "brandFit": 4,
+        "accessibilityFeasibility": 4.4,
+        "implementationCost": 4.4
+      },
+      "rationale": "Clean and usable, but visually colder and less distinctive for first-time onboarding."
+    },
+    {
+      "rank": 3,
+      "id": "direction-3",
+      "weightedScore": 4.18,
+      "scores": {
+        "clarity": 4.2,
+        "brandFit": 4.5,
+        "accessibilityFeasibility": 4,
+        "implementationCost": 3.7
+      },
+      "rationale": "Striking style but higher implementation risk and tighter contrast margins in some surfaces."
+    }
+  ],
+  "selected": {
+    "id": "direction-1",
+    "name": "Botanical Pulse",
+    "scores": {
+      "clarity": 4.8,
+      "brandFit": 4.7,
+      "accessibilityFeasibility": 4.6,
+      "implementationCost": 4.2
+    },
+    "rationale": "Best hierarchy and strongest trust-first SEN tone while remaining straightforward to build responsively.",
+    "weightedScore": 4.64
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "mode": "greenfield",
+  "executionPath": "full",
+  "operatingMode": "fast",
+  "preflight": {
+    "imageGeneration": "yes",
+    "screenshotCapture": "yes",
+    "axeAutomation": "yes"
+  },
+  "scope": {
+    "goal": "Create a new mobile-first homepage UI for SEN Snap anchored around #7AC796.",
+    "audience": "SENCOs and SEN support staff using phones during the school day.",
+    "primaryTask": "Understand the product in under 20 seconds and navigate to login quickly.",
+    "targetSurfaces": [
+      "Homepage hero",
+      "How it works cards",
+      "Signal preview panel",
+      "Primary CTA rail"
+    ],
+    "breakpoints": [375, 768, 1024, 1440],
+    "brandConstraints": {
+      "anchorColor": "#7AC796",
+      "tone": "calm, trustworthy, practical",
+      "typography": "expressive heading + clean readable body",
+      "spacing": "comfortable touch spacing and clear vertical rhythm"
+    },
+    "functionalRequirements": [
+      "Primary CTA to /login",
+      "Secondary preview CTA",
+      "Visible interaction states for key controls",
+      "Realistic copy with no lorem ipsum"
+    ],
+    "contentConstraints": [
+      "Use SEN-focused language and realistic sentence lengths",
+      "Include concrete micro-metrics and actionable copy"
+    ],
+    "accessibilityExpectations": [
+      "WCAG AA contrast",
+      "Keyboard traversable interactive controls",
+      "Visible focus indicators",
+      "Reduced motion handling"
+    ]
+  },
+  "qualityBar": {
+    "nonNegotiables": [
+      "Clear hierarchy",
+      "Distinct visual direction",
+      "Explicit hover/focus/active/disabled states",
+      "Mobile and desktop intent",
+      "Semantic sectioning"
+    ],
+    "antiGenericGuardrails": [
+      "No plain white single-tone background",
+      "No default blue-primary palette",
+      "No lorem ipsum"
+    ]
+  }
+}

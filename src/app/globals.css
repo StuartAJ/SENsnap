@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #f7fcf9;
+  --color-foreground: #143128;
+  --color-primary: #7ac796;
+  --color-primary-foreground: #0d271b;
+  --color-secondary: #e9f7ee;
+  --color-secondary-foreground: #1f4f38;
+  --color-muted: #edf8f1;
+  --color-muted-foreground: #3d6251;
+  --color-accent: #e9f7ee;
+  --color-accent-foreground: #1f4f38;
+  --color-destructive: #ef4444;
+  --color-border: #cde7d8;
+  --color-input: #cde7d8;
+  --color-ring: #5fb483;
+  --color-card: #ffffff;
+  --color-card-foreground: #143128;
+  --color-popover: #ffffff;
+  --color-popover-foreground: #143128;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+}
+
+@layer base {
+  :root {
+    --font-heading-stack: var(--font-heading), "Segoe UI", sans-serif;
+    --font-body-stack: var(--font-body), "Segoe UI", sans-serif;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-body-stack);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-heading-stack);
+  }
+}

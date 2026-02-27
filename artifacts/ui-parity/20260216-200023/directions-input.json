@@ -1,0 +1,37 @@
+{
+  "directions": [
+    {
+      "id": "direction-1",
+      "name": "Botanical Pulse",
+      "scores": {
+        "clarity": 4.8,
+        "brandFit": 4.7,
+        "accessibilityFeasibility": 4.6,
+        "implementationCost": 4.2
+      },
+      "rationale": "Best hierarchy and strongest trust-first SEN tone while remaining straightforward to build responsively."
+    },
+    {
+      "id": "direction-2",
+      "name": "Grid Command",
+      "scores": {
+        "clarity": 4.3,
+        "brandFit": 4.0,
+        "accessibilityFeasibility": 4.4,
+        "implementationCost": 4.4
+      },
+      "rationale": "Clean and usable, but visually colder and less distinctive for first-time onboarding."
+    },
+    {
+      "id": "direction-3",
+      "name": "Signal Waves",
+      "scores": {
+        "clarity": 4.2,
+        "brandFit": 4.5,
+        "accessibilityFeasibility": 4.0,
+        "implementationCost": 3.7
+      },
+      "rationale": "Striking style but higher implementation risk and tighter contrast margins in some surfaces."
+    }
+  ]
+}

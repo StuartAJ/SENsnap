@@ -1,0 +1,377 @@
+{
+  "runId": "20260216-200643",
+  "timestamp": "2026-02-16T20:06:43.506Z",
+  "mode": "fast",
+  "url": "http://localhost:4173",
+  "config": {
+    "widths": [
+      375,
+      768,
+      1024,
+      1440
+    ],
+    "height": 900,
+    "budgets": {
+      "jsBudgetKb": 250,
+      "imageBudgetKb": 800
+    }
+  },
+  "artifacts": {
+    "outDir": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023",
+    "qaReportPath": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023/qa-report.json",
+    "junitPath": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023/qa-junit.xml",
+    "summaryPath": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023/qa-summary.md",
+    "manifestPath": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023/run-manifest.json",
+    "mismatchLogPath": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023/mismatch-log.jsonl",
+    "stateCoveragePath": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023/state-coverage.json",
+    "mockupScreenshotsDir": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023/screenshots/mockup",
+    "implementationScreenshotsDir": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023/screenshots/implementation"
+  },
+  "toolAvailability": {
+    "playwright": {
+      "available": true
+    },
+    "axe": {
+      "available": true
+    }
+  },
+  "widthChecks": [
+    {
+      "width": 375,
+      "screenshot": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023/screenshots/implementation/default-w375.png",
+      "overflow": {
+        "hasOverflow": false,
+        "scrollWidth": 375,
+        "clientWidth": 375
+      },
+      "tabTrace": [
+        {
+          "descriptor": "a#.rounded-lg px-3 py-2 text-sm font-semibold text-foreground/80 transition-colors hover:text-foreground focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "a#.",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "button#.inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 py-2 h-10 rounded-lg px-4 font-semibold",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "a#.",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "button#.inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-11 rounded-xl bg-white px-6 font-bold text-[#113224] hover:bg-white/90",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "a#.inline-flex h-11 items-center rounded-xl border-2 border-white/55 px-5 text-sm font-bold text-white transition-colors hover:border-white/75 hover:bg-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "button#.w-full rounded-xl border border-[#7ac796] bg-[#eaf7ef] px-3 py-3 text-left text-sm font-bold text-[#143128] shadow-[inset_0_0_0_1px_#7ac796] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "button#.w-full rounded-xl border border-[#d5ebde] bg-[#f8fdf9] px-3 py-3 text-left text-sm font-semibold text-foreground transition-colors hover:bg-[#edf8f1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "button#.w-full rounded-xl border border-[#d5ebde] bg-[#f8fdf9] px-3 py-3 text-left text-sm font-semibold text-foreground transition-colors hover:bg-[#edf8f1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "a#.mt-4 inline-flex sm:mt-0",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "button#.inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-11 rounded-xl px-6 font-bold shadow-[0_10px_24px_rgba(35,94,68,0.25)]",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "body#.manrope_9976d61b-module__kWr8Na__variable plus_jakarta_sans_9937b754-module__s1OZ0G__variable",
+          "focusVisibleHint": false
+        }
+      ],
+      "keyboardTraversalPass": true,
+      "focusVisibilityPass": true,
+      "status": "pass"
+    },
+    {
+      "width": 768,
+      "screenshot": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023/screenshots/implementation/default-w768.png",
+      "overflow": {
+        "hasOverflow": false,
+        "scrollWidth": 768,
+        "clientWidth": 768
+      },
+      "tabTrace": [
+        {
+          "descriptor": "a#.rounded-lg px-3 py-2 text-sm font-semibold text-foreground/80 transition-colors hover:text-foreground focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "a#.",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "button#.inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 py-2 h-10 rounded-lg px-4 font-semibold",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "a#.",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "button#.inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-11 rounded-xl bg-white px-6 font-bold text-[#113224] hover:bg-white/90",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "a#.inline-flex h-11 items-center rounded-xl border-2 border-white/55 px-5 text-sm font-bold text-white transition-colors hover:border-white/75 hover:bg-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "button#.w-full rounded-xl border border-[#7ac796] bg-[#eaf7ef] px-3 py-3 text-left text-sm font-bold text-[#143128] shadow-[inset_0_0_0_1px_#7ac796] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "button#.w-full rounded-xl border border-[#d5ebde] bg-[#f8fdf9] px-3 py-3 text-left text-sm font-semibold text-foreground transition-colors hover:bg-[#edf8f1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "button#.w-full rounded-xl border border-[#d5ebde] bg-[#f8fdf9] px-3 py-3 text-left text-sm font-semibold text-foreground transition-colors hover:bg-[#edf8f1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "a#.mt-4 inline-flex sm:mt-0",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "button#.inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-11 rounded-xl px-6 font-bold shadow-[0_10px_24px_rgba(35,94,68,0.25)]",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "body#.manrope_9976d61b-module__kWr8Na__variable plus_jakarta_sans_9937b754-module__s1OZ0G__variable",
+          "focusVisibleHint": false
+        }
+      ],
+      "keyboardTraversalPass": true,
+      "focusVisibilityPass": true,
+      "status": "pass"
+    },
+    {
+      "width": 1024,
+      "screenshot": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023/screenshots/implementation/default-w1024.png",
+      "overflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1024,
+        "clientWidth": 1024
+      },
+      "tabTrace": [
+        {
+          "descriptor": "a#.rounded-lg px-3 py-2 text-sm font-semibold text-foreground/80 transition-colors hover:text-foreground focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "a#.",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "button#.inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 py-2 h-10 rounded-lg px-4 font-semibold",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "a#.",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "button#.inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-11 rounded-xl bg-white px-6 font-bold text-[#113224] hover:bg-white/90",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "a#.inline-flex h-11 items-center rounded-xl border-2 border-white/55 px-5 text-sm font-bold text-white transition-colors hover:border-white/75 hover:bg-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "button#.w-full rounded-xl border border-[#7ac796] bg-[#eaf7ef] px-3 py-3 text-left text-sm font-bold text-[#143128] shadow-[inset_0_0_0_1px_#7ac796] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "button#.w-full rounded-xl border border-[#d5ebde] bg-[#f8fdf9] px-3 py-3 text-left text-sm font-semibold text-foreground transition-colors hover:bg-[#edf8f1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "button#.w-full rounded-xl border border-[#d5ebde] bg-[#f8fdf9] px-3 py-3 text-left text-sm font-semibold text-foreground transition-colors hover:bg-[#edf8f1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "a#.mt-4 inline-flex sm:mt-0",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "button#.inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-11 rounded-xl px-6 font-bold shadow-[0_10px_24px_rgba(35,94,68,0.25)]",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "body#.manrope_9976d61b-module__kWr8Na__variable plus_jakarta_sans_9937b754-module__s1OZ0G__variable",
+          "focusVisibleHint": false
+        }
+      ],
+      "keyboardTraversalPass": true,
+      "focusVisibilityPass": true,
+      "status": "pass"
+    },
+    {
+      "width": 1440,
+      "screenshot": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023/screenshots/implementation/default-w1440.png",
+      "overflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      },
+      "tabTrace": [
+        {
+          "descriptor": "a#.rounded-lg px-3 py-2 text-sm font-semibold text-foreground/80 transition-colors hover:text-foreground focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "a#.",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "button#.inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 py-2 h-10 rounded-lg px-4 font-semibold",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "a#.",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "button#.inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-11 rounded-xl bg-white px-6 font-bold text-[#113224] hover:bg-white/90",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "a#.inline-flex h-11 items-center rounded-xl border-2 border-white/55 px-5 text-sm font-bold text-white transition-colors hover:border-white/75 hover:bg-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "button#.w-full rounded-xl border border-[#7ac796] bg-[#eaf7ef] px-3 py-3 text-left text-sm font-bold text-[#143128] shadow-[inset_0_0_0_1px_#7ac796] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "button#.w-full rounded-xl border border-[#d5ebde] bg-[#f8fdf9] px-3 py-3 text-left text-sm font-semibold text-foreground transition-colors hover:bg-[#edf8f1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "button#.w-full rounded-xl border border-[#d5ebde] bg-[#f8fdf9] px-3 py-3 text-left text-sm font-semibold text-foreground transition-colors hover:bg-[#edf8f1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "a#.mt-4 inline-flex sm:mt-0",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "button#.inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-11 rounded-xl px-6 font-bold shadow-[0_10px_24px_rgba(35,94,68,0.25)]",
+          "focusVisibleHint": true
+        },
+        {
+          "descriptor": "body#.manrope_9976d61b-module__kWr8Na__variable plus_jakarta_sans_9937b754-module__s1OZ0G__variable",
+          "focusVisibleHint": false
+        }
+      ],
+      "keyboardTraversalPass": true,
+      "focusVisibilityPass": true,
+      "status": "pass"
+    }
+  ],
+  "crossBrowser": {},
+  "stress": {},
+  "gates": {
+    "playwright": {
+      "status": "pass"
+    },
+    "widthChecks": {
+      "status": "pass"
+    },
+    "noHorizontalOverflow": {
+      "status": "pass"
+    },
+    "focusVisibility": {
+      "status": "pass"
+    },
+    "keyboardTraversal": {
+      "status": "pass"
+    },
+    "crossBrowser": {
+      "status": "skipped",
+      "reason": "Skipped in fast mode."
+    },
+    "axeBaseline": {
+      "status": "pass"
+    },
+    "wcagAaContrast": {
+      "status": "pass"
+    },
+    "reducedMotion": {
+      "status": "pass"
+    },
+    "performanceBudget": {
+      "status": "pass"
+    },
+    "stressI18nRtl": {
+      "status": "skipped",
+      "reason": "Skipped in fast mode."
+    },
+    "stressZoom200": {
+      "status": "skipped",
+      "reason": "Skipped in fast mode."
+    },
+    "stressReducedNetwork": {
+      "status": "skipped",
+      "reason": "Skipped in fast mode."
+    },
+    "stressLongContentOverflow": {
+      "status": "skipped",
+      "reason": "Skipped in fast mode."
+    },
+    "stateCoverage": {
+      "status": "pass"
+    },
+    "qualityContract": {
+      "status": "pass"
+    },
+    "artifactIntegrity": {
+      "status": "pass"
+    }
+  },
+  "selectedPath": "full",
+  "axe": {
+    "available": true,
+    "violationsCount": 0,
+    "contrastViolationsCount": 0
+  },
+  "reducedMotion": {
+    "prefersReduced": true,
+    "runningAnimationsOver150ms": 0
+  },
+  "performance": {
+    "scriptKb": 136.6,
+    "imageKb": 0,
+    "budgets": {
+      "scriptKb": 250,
+      "imageKb": 800
+    }
+  },
+  "summary": {
+    "automaticPass": true,
+    "failedGateKeys": [],
+    "confidence": {
+      "level": "medium",
+      "reasons": [
+        "Fast mode intentionally skips some release checks.",
+        "Skipped gates: crossBrowser, stressI18nRtl, stressZoom200, stressReducedNetwork, stressLongContentOverflow"
+      ]
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "generatedAt": "2026-02-16T20:09:07.115Z",
+  "config": {
+    "baselineDir": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023/screenshots/mockup",
+    "candidateDir": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023/screenshots/implementation",
+    "pixelThreshold": 16,
+    "maxPixelDiffRatio": 0.02,
+    "minSsim": 0.96,
+    "maxMaskCoverageRatio": 0.15,
+    "maskFile": null
+  },
+  "summary": {
+    "fileCount": 4,
+    "failCount": 4,
+    "maxPixelDiffRatio": 0.02,
+    "minSsim": 0.96,
+    "maxMaskedPixelRatio": 0,
+    "pass": false
+  },
+  "maskValidationErrors": [],
+  "comparisons": [
+    {
+      "file": "default-w1024.png",
+      "baselinePath": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023/screenshots/mockup/default-w1024.png",
+      "candidatePath": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023/screenshots/implementation/default-w1024.png",
+      "status": "fail",
+      "metrics": {
+        "comparedPixels": 1585152,
+        "diffPixels": 508105,
+        "pixelDiffRatio": 0.3205402384124677,
+        "ssim": 0.674557133280641,
+        "maskedPixels": 0,
+        "maskedPixelRatio": 0
+      },
+      "reason": "Parity thresholds not met"
+    },
+    {
+      "file": "default-w1440.png",
+      "baselinePath": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023/screenshots/mockup/default-w1440.png",
+      "candidatePath": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023/screenshots/implementation/default-w1440.png",
+      "status": "fail",
+      "metrics": {
+        "comparedPixels": 2196000,
+        "diffPixels": 588711,
+        "pixelDiffRatio": 0.26808333333333334,
+        "ssim": 0.6993620383407588,
+        "maskedPixels": 0,
+        "maskedPixelRatio": 0
+      },
+      "reason": "Parity thresholds not met"
+    },
+    {
+      "file": "default-w375.png",
+      "baselinePath": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023/screenshots/mockup/default-w375.png",
+      "candidatePath": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023/screenshots/implementation/default-w375.png",
+      "status": "fail",
+      "metrics": {
+        "comparedPixels": 929250,
+        "diffPixels": 296024,
+        "pixelDiffRatio": 0.318562281409739,
+        "ssim": 0.5698692719843115,
+        "maskedPixels": 0,
+        "maskedPixelRatio": 0
+      },
+      "reason": "Parity thresholds not met"
+    },
+    {
+      "file": "default-w768.png",
+      "baselinePath": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023/screenshots/mockup/default-w768.png",
+      "candidatePath": "/Users/stuartarmley-jones/SENsnap/artifacts/ui-parity/20260216-200023/screenshots/implementation/default-w768.png",
+      "status": "fail",
+      "metrics": {
+        "comparedPixels": 1210368,
+        "diffPixels": 386254,
+        "pixelDiffRatio": 0.31912112679780036,
+        "ssim": 0.6772504260905013,
+        "maskedPixels": 0,
+        "maskedPixelRatio": 0
+      },
+      "reason": "Parity thresholds not met"
+    }
+  ],
+  "extraCandidateFiles": [],
+  "candidateFileCount": 4,
+  "baselineFileCount": 4
+}
