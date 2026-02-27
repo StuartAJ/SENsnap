@@ -16,6 +16,16 @@ export const createQuestionSchema = z.object({
 
 export type CreateQuestionInput = z.infer<typeof createQuestionSchema>
 
+export const createOwnQuestionSchema = z.object({
+  content: z.string().min(10, 'Question must be at least 10 characters'),
+  question_type: z.enum(['multiple_choice', 'scale', 'ranking']),
+  options: z.array(questionOptionSchema).min(2, 'At least 2 options required').max(6),
+  category: z.string().min(1, 'Category is required'),
+  scheduled_date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'Must be a valid date (YYYY-MM-DD)'),
+})
+
+export type CreateOwnQuestionInput = z.infer<typeof createOwnQuestionSchema>
+
 export const submitAnswerSchema = z.object({
   question_id: z.string().uuid(),
   answer: questionOptionSchema,

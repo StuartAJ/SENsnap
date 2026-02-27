@@ -162,6 +162,7 @@ export async function getAdminQuestions() {
 
   const { data } = await supabase
     .from('questions')
+    .is('created_by', null)
     .select('*')
     .eq('is_active', true)
     .order('scheduled_date', { ascending: false })

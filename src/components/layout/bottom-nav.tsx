@@ -2,11 +2,12 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { MessageCircle, BarChart3, User } from 'lucide-react'
+import { MessageCircle, BarChart3, User, Plus } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
 const navItems = [
   { href: '/daily', label: 'Daily', icon: MessageCircle },
+  { href: '/questions', label: 'Questions', icon: Plus },
   { href: '/results', label: 'Results', icon: BarChart3 },
   { href: '/profile', label: 'Profile', icon: User },
 ] as const

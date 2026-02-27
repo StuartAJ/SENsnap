@@ -60,6 +60,7 @@ export interface Question {
   readonly question_type: QuestionType
   readonly options: readonly QuestionOption[]
   readonly category: string
+  readonly created_by?: string | null
   readonly scheduled_date: string
   readonly display_order: number
   readonly is_active: boolean

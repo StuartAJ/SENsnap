@@ -26,19 +26,63 @@ export default async function ResultsDatePage({ params }: ResultsDatePageProps) 
   } else {
     const { createClient } = await import('@/lib/supabase/server')
     const supabase = await createClient()
+    const {
+      data: { user },
+    } = await supabase.auth.getUser()
 
-    const [questionsResult, resultsResult] = await Promise.all([
-      supabase
-        .from('questions')
-        .select('*')
-        .eq('scheduled_date', date)
-        .eq('is_active', true)
-        .order('display_order', { ascending: true }),
-      supabase.from('daily_results').select('*').eq('results_date', date),
-    ])
+    if (!user) {
+      questions = []
+      results = []
+    } else {
+      const [globalQuestionsResult, personalQuestionsResult] = await Promise.all([
+        supabase
+          .from('questions')
+          .select('*')
+          .eq('scheduled_date', date)
+          .eq('is_active', true)
+          .is('created_by', null)
+          .order('display_order', { ascending: true }),
+        supabase
+          .from('questions')
+          .select('*')
+          .eq('scheduled_date', date)
+          .eq('is_active', true)
+          .eq('created_by', user.id)
+          .order('created_at', { ascending: true }),
+      ])
 
-    questions = (questionsResult.data ?? []) as Question[]
-    results = (resultsResult.data ?? []) as DailyResult[]
+      questions = [
+        ...(globalQuestionsResult.data ?? []) as Question[],
+        ...(personalQuestionsResult.data ?? []) as Question[],
+      ].sort((a, b) => {
+        const aIsGlobal = a.created_by == null
+        const bIsGlobal = b.created_by == null
+
+        if (aIsGlobal !== bIsGlobal) {
+          return aIsGlobal ? -1 : 1
+        }
+
+        if (a.display_order !== b.display_order) {
+          return a.display_order - b.display_order
+        }
+
+        return new Date(a.created_at).getTime() - new Date(b.created_at).getTime()
+      })
+
+      if (questions.length === 0) {
+        results = []
+      } else {
+        const questionIds = questions.map((question) => question.id)
+
+        const { data: resultsData } = await supabase
+          .from('daily_results')
+          .select('*')
+          .eq('results_date', date)
+          .in('question_id', questionIds)
+
+        results = (resultsData ?? []) as DailyResult[]
+      }
+    }
   }
 
   if (questions.length === 0 || results.length === 0) {
